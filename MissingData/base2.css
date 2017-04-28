@@ -1,0 +1,54 @@
+/*
+Title slide formatting
+*/
+slides > slide.title-slide {
+  background-image: url(uni.png);
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+.title-slide hgroup h1 {
+  font-size: 75px;
+  letter-spacing: 0;
+  color: #000000;
+  font-family: Helvetica;
+  position: fixed;
+  top: 30%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.title-slide hgroup p {
+  font-family: Helvetica;
+  font-size: 40px;
+  color: #000000;
+  position: fixed;
+  top: 38%;
+  left: 24.5%;
+  transform: translate(-50%, -50%);
+}
+
+/*
+All other slide formatting
+*/
+
+slides > slide hgroup h2 {
+  font-family: Helvetica;
+  color: #000000;
+}
+
+body slides > slide {
+  font-family: Helvetica;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+pre {
+  white-space: pre !important;
+  overflow-y: scroll !important;
+  height: 50vh !important;
+}
+
+img {
+  align: middle;
+}
